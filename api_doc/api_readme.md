@@ -48,7 +48,7 @@ interface News {
 ```typescript
 interface Feed {
     image: string;      // 缩略图
-    type: FeedType;     // 类型 [FeedType](./api_readme.md#FeedType 新闻类型)
+    type: FeedType;     // 类型 [FeedType](#FeedType 新闻类型)
     post: Post;         // 详细信息
 }
 ```
@@ -128,7 +128,7 @@ interface HeadLine extends Feed {
 
 ### 示例数据
 
-[实例](./example_data/homes0.json)
+[实例](example_data/homes0.json)
 
 
 ### LABS
